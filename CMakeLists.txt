@@ -18,7 +18,7 @@ list(APPEND IDF_EXTRA_COMPONENT_DIRS ${EXTRA_COMPONENT_DIRS})
 # As of now there's no offical way to redefine config files outside of FreeRTOS source tree.
 # This is a temporary approach to inject an include path so that this takes precedence over the
 # config file directory inside FreeRTOS.
-include_directories(BEFORE freertos-configs)
+#include_directories(BEFORE freertos-configs)
 
 # Add freertos as an subdirectory. AFR_BOARD tells which board to target.
 set(AFR_BOARD espressif.esp32_devkitc CACHE INTERNAL "")
@@ -32,4 +32,5 @@ target_link_libraries(
     AFR::demo_core_mqtt
     AFR::common_io
     AFR::demo_ble_numeric_comparison
+    AFR::demo_wifi_provisioning
 )
