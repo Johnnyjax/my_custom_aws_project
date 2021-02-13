@@ -7,6 +7,10 @@ add_executable(afr_demo src/main.c)
 # Tell IDF build to link against this target.
 set(IDF_PROJECT_EXECUTABLE afr_demo)
 
+
+# Add a dependency on the bluetooth espressif component to the common component
+set(COMPONENT_REQUIRES lwip)
+
 # Add some extra components. IDF_EXTRA_COMPONENT_DIRS is an variable used by ESP-IDF
 # to collect extra components.
 get_filename_component(
@@ -32,5 +36,4 @@ target_link_libraries(
     AFR::demo_core_mqtt
     AFR::common_io
     AFR::demo_ble_numeric_comparison
-    AFR::demo_wifi_provisioning
 )

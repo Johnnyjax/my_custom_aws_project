@@ -1175,8 +1175,6 @@ endif()
 # glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/vendors/espressif/esp-idf/*.C")
 set(OLD_GLOB
-  "C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/vendors/espressif/esp-idf/build/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c"
-  "C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/vendors/espressif/esp-idf/build/CMakeFiles/feature_tests.c"
   "C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/vendors/espressif/esp-idf/components/app_trace/app_trace.c"
   "C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/vendors/espressif/esp-idf/components/app_trace/app_trace_util.c"
   "C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/vendors/espressif/esp-idf/components/app_trace/gcov/gcov_rtio.c"
@@ -4115,8 +4113,6 @@ endif()
 # glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/vendors/espressif/esp-idf/*.c")
 set(OLD_GLOB
-  "C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/vendors/espressif/esp-idf/build/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c"
-  "C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/vendors/espressif/esp-idf/build/CMakeFiles/feature_tests.c"
   "C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/vendors/espressif/esp-idf/components/app_trace/app_trace.c"
   "C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/vendors/espressif/esp-idf/components/app_trace/app_trace_util.c"
   "C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/vendors/espressif/esp-idf/components/app_trace/gcov/gcov_rtio.c"

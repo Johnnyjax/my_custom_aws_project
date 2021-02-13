@@ -116,6 +116,9 @@ AFR_MODULE_shadow:BOOL=ON
 //Enable  module.
 AFR_MODULE_wifi:BOOL=ON
 
+//No help, variable specified on the command line.
+BOARD:UNINITIALIZED=esp32_wrover_kit
+
 //Clone any required Git submodules. When OFF, submodules must
 // be manually cloned.
 BUILD_CLONE_SUBMODULES:BOOL=ON
@@ -326,6 +329,9 @@ CMAKE_STRIP:FILEPATH=C:/Users/John/.espressif/tools/xtensa-esp32-elf/1.22.0-80-g
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//No help, variable specified on the command line.
+COMPILER:UNINITIALIZED=xtensa-esp32
+
 //INTERNAL
 ESP_PLATFORM:BOOL=1
 
@@ -340,6 +346,9 @@ IDF_TARGET:STRING=esp32
 
 //Path to a program.
 MCONF:FILEPATH=C:/Users/John/.espressif/tools/mconf/v4.6.0.0-idf-20190628/mconf-idf.exe
+
+//No help, variable specified on the command line.
+VENDOR:UNINITIALIZED=espressif
 
 //Value Computed by CMake
 amazon-freertos_BINARY_DIR:STATIC=C:/Users/John/Documents/AWS/my_custom_aws_project/build/freertos
@@ -552,6 +561,7 @@ AFR_MODULE_demo_core_mqtt_DEPENDS_INTERFACE:INTERNAL=AFR::demo_base;AFR::core_mq
 AFR_MODULE_demo_core_mqtt_IS_INTERFACE:INTERNAL=TRUE
 AFR_MODULE_demo_core_mqtt_SOURCES_ALL:INTERNAL=C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/demos/coreMQTT/mqtt_demo_mutual_auth.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/demos/coreMQTT/mqtt_demo_connection_sharing.c
 AFR_MODULE_demo_core_mqtt_SOURCES_INTERFACE:INTERNAL=C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/demos/coreMQTT/mqtt_demo_mutual_auth.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/demos/coreMQTT/mqtt_demo_connection_sharing.c
+AFR_MODULE_demo_demo_ble_numeric_comparison_IS_INTERFACE:INTERNAL=TRUE
 AFR_MODULE_demo_device_defender_CMAKE_FILES:INTERNAL=C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/demos/device_defender_for_aws/CMakeLists.txt
 AFR_MODULE_demo_device_defender_DEPENDS_ALL:INTERNAL=AFR::demo_base;AFR::mqtt_demo_helpers;AFR::core_json;AFR::device_defender;AFR::device_defender_demo_dependencies
 AFR_MODULE_demo_device_defender_DEPENDS_INTERFACE:INTERNAL=AFR::demo_base;AFR::mqtt_demo_helpers;AFR::core_json;AFR::device_defender;AFR::device_defender_demo_dependencies
@@ -681,6 +691,7 @@ AFR_MODULE_freertos_plus_posix_INCLUDES_INTERFACE:INTERNAL=C:/Users/John/Documen
 AFR_MODULE_freertos_plus_posix_IS_INTERFACE:INTERNAL=TRUE
 AFR_MODULE_freertos_plus_posix_SOURCES_ALL:INTERNAL=C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_clock.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_mqueue.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_pthread_barrier.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_pthread.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_pthread_cond.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_pthread_mutex.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_sched.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_semaphore.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_timer.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_unistd.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_utils.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/include/FreeRTOS_POSIX.h;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/include/FreeRTOS_POSIX_types.h;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/include/FreeRTOS_POSIX_internal.h;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/include/FreeRTOS_POSIX_portable_default.h
 AFR_MODULE_freertos_plus_posix_SOURCES_INTERFACE:INTERNAL=C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_clock.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_mqueue.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_pthread_barrier.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_pthread.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_pthread_cond.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_pthread_mutex.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_sched.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_semaphore.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_timer.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_unistd.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/source/FreeRTOS_POSIX_utils.c;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/include/FreeRTOS_POSIX.h;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/include/FreeRTOS_POSIX_types.h;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/include/FreeRTOS_POSIX_internal.h;C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_posix/include/FreeRTOS_POSIX_portable_default.h
+"AFR_MODULE_freertos_plus_tcp::mcu_port_IS_INTERFACE":INTERNAL=TRUE
 AFR_MODULE_freertos_plus_tcp_CMAKE_FILES:INTERNAL=C:/Users/John/Documents/AWS/my_custom_aws_project/freertos/libraries/freertos_plus/standard/freertos_plus_tcp.cmake
 AFR_MODULE_freertos_plus_tcp_DEPENDS_ALL:INTERNAL=AFR::kernel;AFR::freertos_plus_tcp::mcu_port
 AFR_MODULE_freertos_plus_tcp_DEPENDS_PUBLIC:INTERNAL=AFR::kernel;AFR::freertos_plus_tcp::mcu_port
