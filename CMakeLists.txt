@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
 
-project(freertos_examples)
+project(buzr_mini_0.0.1)
 
 add_executable(afr_demo src/main.c)
 
