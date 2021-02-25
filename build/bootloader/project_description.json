@@ -1,0 +1,18 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/bootloader/subproject",
+    "build_dir":          "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/bootloader",
+    "config_file":        "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v3.3.2-241-g1d2d93acd",
+    "phy_data_partition": "",
+    "monitor_baud" : "115200",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : " C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/efuse/Kconfig C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/esp32/Kconfig C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/log/Kconfig C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : " C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/bootloader/Kconfig.projbuild C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/esptool_py/Kconfig.projbuild C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "soc", "esp32", "log", "bootloader", "spi_flash", "micro-ecc", "efuse", "bootloader_support", "main", "esptool_py", "partition_table" ],
+    "build_component_paths" : [ "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/soc", "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/esp32", "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/log", "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/bootloader", "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/spi_flash", "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/micro-ecc", "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/efuse", "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/bootloader_support", "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/bootloader/subproject/main", "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/esptool_py", "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/vendors/espressif/esp-idf/components/partition_table" ]
+}

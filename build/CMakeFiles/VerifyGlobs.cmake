@@ -136,6 +136,114 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/*.ASM")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/*.C")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/*.H")
+set(OLD_GLOB
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/FreeRTOS.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/StackMacros.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/atomic.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/croutine.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/deprecated_definitions.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/event_groups.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/list.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/message_buffer.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/mpu_prototypes.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/mpu_wrappers.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/portable.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/projdefs.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/queue.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/semphr.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/stack_macros.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/stream_buffer.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/task.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/timers.h"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/*.S")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/*.asm")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/*.c")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/*.h")
+set(OLD_GLOB
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/FreeRTOS.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/StackMacros.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/atomic.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/croutine.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/deprecated_definitions.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/event_groups.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/list.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/message_buffer.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/mpu_prototypes.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/mpu_wrappers.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/portable.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/projdefs.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/queue.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/semphr.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/stack_macros.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/stream_buffer.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/task.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/timers.h"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/freertos_kernel/include/*.s")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/3rdparty/mbedtls/include/*.ASM")
 set(OLD_GLOB
   )
@@ -794,6 +902,100 @@ endif()
 
 # glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/3rdparty/tinycrypt/lib/*.s")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/*.ASM")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/*.C")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/*.H")
+set(OLD_GLOB
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/errno.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/fcntl.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/mqueue.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/pthread.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/sched.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/semaphore.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/signal.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/sys/types.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/time.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/unistd.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/utils.h"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/*.S")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/*.asm")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/*.c")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/*.h")
+set(OLD_GLOB
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/errno.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/fcntl.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/mqueue.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/pthread.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/sched.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/semaphore.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/signal.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/sys/types.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/time.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/unistd.h"
+  "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/FreeRTOS_POSIX/utils.h"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# glob_result at freertos/tools/cmake/afr_utils.cmake:120 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/John/Documents/AWS/buzr_mini_0.0.1/freertos/libraries/abstractions/posix/include/*.s")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
